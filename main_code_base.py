@@ -578,7 +578,7 @@ def main():
 
                     if user_input == "2":  #Find job details based on Job ID
                         job_exist = False
-                        id_input = input("\nPlease input Job ID:").strip()
+                        id_input = input("\nPlease input Job ID (e.g. #1010): ").strip()
 
                         for jobs in list_of_jobs:
                             
